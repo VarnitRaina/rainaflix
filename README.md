@@ -1,5 +1,5 @@
 🎬 RainaFlix
-RainaFlix is a movie browsing web application that fetches the latest popular movies using an external API. Users can explore movies on the Home Page and mark their favorite ones to store them separately on the Favorites Page.
+ is a movie browsing web application that fetches the latest popular movies using an external API. Users can explore movies on the Home Page and mark their favorite ones to store them separately on the Favorites Page.
 
 🚀 Features
 🔍 Browse Movies – Displays trending movies fetched from an external API.
