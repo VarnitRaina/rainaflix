@@ -1,0 +1,62 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker navbar like Netflix */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Rainaflix logo styling */
+.rainaflix {
+  color: #e50914; /* Netflix Red */
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 1px;
+}
+
+.rainaflix:hover {
+  color: darkred;
+}
+
+/* Navbar links styling */
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Netflix-like Navigation links */
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif;
+  color: #e5e5e5; /* Netflix-style gray */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #e50914; /* Netflix red on hover */
+  text-shadow: 0 0 5px rgba(229, 9, 20, 0.7); /* Glow effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+      padding: 1rem;
+  }
+
+  .rainaflix {
+      font-size: 22px;
+  }
+
+  .navbar-links {
+      gap: 1rem;
+  }
+
+  .nav-link {
+      font-size: 1rem;
+  }
+}
