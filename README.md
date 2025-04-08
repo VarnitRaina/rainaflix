@@ -1,12 +1,84 @@
-# React + Vite
+🎬 RainaFlix
+RainaFlix is a movie browsing web application that fetches the latest popular movies using an external API. Users can explore movies on the Home Page and mark their favorite ones to store them separately on the Favorites Page.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🔍 Browse Movies – Displays trending movies fetched from an external API.
 
-Currently, two official plugins are available:
+❤️ Favorite Movies – Save movies to a personalized favorites list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔄 Dynamic UI – Responsive and sleek user interface.
 
-## Expanding the ESLint configuration
+⚡ Fast & Interactive – Optimized performance for a smooth experience.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Installation & Setup
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
+git clone https://github.com/VarnitRaina/rainaflix.git
+cd rainaflix
+2️⃣ Install Dependencies
+sh
+Copy
+Edit
+npm install
+3️⃣ Set Up API Keys (Prevent Leaks!)
+Create a .env file in the project root:
+
+ini
+Copy
+Edit
+API_KEY=your_api_key_here
+Update .gitignore to prevent pushing secrets:
+
+bash
+Copy
+Edit
+.env
+node_modules
+4️⃣ Run the Development Server
+sh
+Copy
+Edit
+npm start
+The project will run at http://localhost:3000.
+
+🚀 Deployment
+To deploy the project:
+
+Build the project:
+
+sh
+Copy
+Edit
+npm run build
+Push to GitHub:
+
+sh
+Copy
+Edit
+git add .
+git commit -m "Initial commit"
+git push origin main
+Deploy to Vercel/Netlify (Optional)
+
+📌 Tech Stack
+Frontend: Vite, React.js, JSX, CSS
+
+State Management: React Context API
+
+Routing: React Router (if used, otherwise remove this)
+
+Styling: CSS Modules
+
+API Handling: Axios (if used, otherwise fetch API)
+
+Environment Variables: .env (Vite Environment Variables)
+
+External API: The Movie Database (TMDb)
+
+Development Tools: ESLint, Vite.js
+
+📜 License
+This project is open-source and free to use.
+
